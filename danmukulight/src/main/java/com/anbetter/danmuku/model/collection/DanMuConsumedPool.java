@@ -145,7 +145,7 @@ public final class DanMuConsumedPool {
             DanMuChannel danMuChannel = new DanMuChannel();
             danMuChannel.width = width;
             danMuChannel.height = singleHeight;
-//            danMuChannel.speed = speedController.getSpeed();
+            danMuChannel.speed = speedController.getSpeed();
 
             danMuChannel.topY = i * singleHeight;
 //            danMuChannel.space = selectSpaceRandomly();
